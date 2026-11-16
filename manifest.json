@@ -1,0 +1,24 @@
+{
+  "name": "MutqinSpace — Mutaba'ah Tahfidz",
+  "short_name": "MutqinSpace",
+  "description": "Mutaba'ah hafalan Al-Qur'an: setoran, presensi, portal wali, dan dashboard capaian.",
+  "id": "./",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "orientation": "any",
+  "background_color": "#ECE9FA",
+  "theme_color": "#1F2023",
+  "lang": "id",
+  "categories": ["education", "productivity"],
+  "icons": [
+    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Input Setoran", "url": "./index.html#/setoran/input", "icons": [{ "src": "./icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Presensi Cepat", "url": "./index.html#/presensi", "icons": [{ "src": "./icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
